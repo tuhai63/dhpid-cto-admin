@@ -1,0 +1,20 @@
+********** 2:15:02 PM **********
+Exception Type: System.FormatException
+Exception: Input string was not in a correct format.
+Source: Default.aspx - IRC Upload()- reference Number:37C9AB8D, inspection start Date : 6/19/2017 12:00:00 AM
+Stack Trace: 
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at cto.ctoadmin_manageData.insertIRCs_Click(Object sender, EventArgs e) in c:\DHPID_APPS\DHPID_CTO\cto\ctoadmin\manageData.aspx.cs:line 323
+
+********** 2:21:01 PM **********
+Exception Type: System.FormatException
+Exception: Input string was not in a correct format.
+Source: Default.aspx - IRC Upload()- reference Number:37C9AB8D, inspection start Date : 6/19/2017 12:00:00 AM
+Stack Trace: 
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at cto.ctoadmin_manageData.insertIRCs_Click(Object sender, EventArgs e) in c:\DHPID_APPS\DHPID_CTO\cto\ctoadmin\manageData.aspx.cs:line 323
+
